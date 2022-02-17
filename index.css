@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Lato:ital@1&family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: azure;
+}
+
+#content {
+  margin: auto 2rem;
+}
+
+#head {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #3874ff;
+  color: black;
+  font-size: large;
+}
+
+#head span {
+  padding: 0 1rem;
+  font-weight: 200;
+}
+
+#main {
+  margin: auto;
+  padding: 2rem;
+  width: fit-content;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#title {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+#title h1 {
+  padding: 1rem 2rem 0 2rem;
+  margin-bottom: 0rem;
+}
+
+#logo {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  #head span {
+    font-size: medium;
+  }
+
+  #logo {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
